@@ -45,7 +45,7 @@ document.URL;
 // returns the URL of the document object
 ```
 
-Below the document, are all the nodes representing the HTML or ZML elements on the page.
+Below the document, are all the nodes representing the HTML or XML elements on the page.
 
 ## Altering The DOM
 
