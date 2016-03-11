@@ -51,10 +51,17 @@ Below the document, are all the nodes representing the HTML or XML elements on t
 
 We can alter the DOM through several different ways:
 
-+ Add/remove/hide/show HTML elements in the page.
++ Add/remove/ HTML elements in the page.
+  + You can add elements with functions like `appendChild`.
+  + You can remove elements with the similarly named `removeChild`.
+  + Both of these functions can be called on any node in the DOM tree.
 + Add/remove/change HTML attributes.
+  + If you have a DOM node called `element`, `element.attributes` gives you access to its attributes.
+  + You can remove attributes with `removeAttribute`.
 + Add/remove/change  CSS styles.
-+ Listen for key presses or mouse events upon Elements
+  + You can modify any DOM node's `style` property.
++ Listen for key presses or mouse events on Elements.
+  + You can add a listener directly using `addEventListener`. Elements emit an [extensive array](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) of events.
 + Create events in the page.
 
 ## Selecting Elements
@@ -77,5 +84,5 @@ The DOM will become increasingly important as we use JavaScript and jQuery to ma
 ## Resources
 
 + [MDN DOM Introduction](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
-+ [W3C Schools Window Properties](http://www.w3schools.com/jsref/obj_window.asp)
 + [MDN Document Properties](https://developer.mozilla.org/en-US/docs/Web/API/Document)
++ [MDN EventTarget.addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
