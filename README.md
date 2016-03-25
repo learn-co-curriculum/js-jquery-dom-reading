@@ -51,7 +51,7 @@ Below the document, are all the nodes representing the HTML or XML elements on t
 
 We can alter the DOM through several different ways:
 
-+ Add/remove/ HTML elements in the page.
++ Add/remove HTML elements in the page.
   + You can add elements with functions like `appendChild`.
   + You can remove elements with the similarly named `removeChild`.
   + Both of these functions can be called on any node in the DOM tree.
@@ -86,3 +86,5 @@ The DOM will become increasingly important as we use JavaScript and jQuery to ma
 + [MDN DOM Introduction](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 + [MDN Document Properties](https://developer.mozilla.org/en-US/docs/Web/API/Document)
 + [MDN EventTarget.addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-jquery-dom-reading'>The DOM</a> on Learn.co and start learning to code for free.</p>
