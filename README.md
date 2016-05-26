@@ -72,9 +72,20 @@ JS:
 ```js
 document.getElementByTagName("p");
 //returns all p tags on a page
+
+// alternatively, we could do
+document.querySelectorAll('p');
+
+// the results of these two functions
+// are the same in this example, but as
+// we'll see later, getElementsByTagName
+// and querySelectorAll have different uses
 ```
 
-jQuery:
+Lots of developers use a library called [jQuery](https://jquery.org) for interacting with the DOM. The jQuery library provides a `jQuery` function (aliased as `$`), which wraps `document.querySelectorAll()` and adds a bit of magic.
+
+We could write the above example in jQuery as
+
 ```js
 $("p");
 ```
