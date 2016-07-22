@@ -70,7 +70,7 @@ We can select HTML elements in the document with JavaScript and jQuery:
 
 JS:
 ```js
-document.getElementByTagName("p");
+document.getElementsByTagName("p");
 //returns all p tags on a page
 
 // alternatively, we could do
