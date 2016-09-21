@@ -45,7 +45,7 @@ document.URL;
 // returns the URL of the document object
 ```
 
-Below the document, are all the nodes representing the HTML or XML elements on the page.
+Below the document are all the nodes representing the HTML or XML elements on the page.
 
 ## Altering The DOM
 
@@ -99,5 +99,3 @@ The DOM will become increasingly important as we use JavaScript and jQuery to ma
 + [MDN EventTarget.addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-jquery-dom-reading'>The DOM</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/js-jquery-dom-reading'>The DOM </a> on Learn.co and start learning to code for free.</p>
